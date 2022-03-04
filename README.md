@@ -1,12 +1,9 @@
 # sql1
 1.	to find total liquor sales in IOWA
+
 SELECT SUM(sale_dollars)
-  
-<img width="323" alt="image" src="https://user-images.githubusercontent.com/100938096/156758972-96f2cf58-8944-4a16-8487-c65d00dbf34a.png">
-
-
 FROM `bigquery-public-data.iowa_liquor_sales.sales` 
-
+<img width="323" alt="image" src="https://user-images.githubusercontent.com/100938096/156758972-96f2cf58-8944-4a16-8487-c65d00dbf34a.png">
  
 
 2.	TO FIND MAXIMUM PACKS SOLD OF A SINGLE LIQUOR BRAND
